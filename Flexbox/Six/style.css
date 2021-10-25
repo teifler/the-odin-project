@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+/* Make main header container flex so header is left and right */ 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+/* Remove bullet points and underline of links */ 
+.left-links li, .right-links li {
+    list-style-type: none;
+    display: inline;
+}
+
+.left-links a, .right-links a {
+    text-decoration: none;
+    color: #666;
+
+}
+
+/* Center the logo and buttons */ 
+body {
+    display:flex;
+    flex-direction: column;
+}
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttons button{
+    height: 40px;
+    width: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
